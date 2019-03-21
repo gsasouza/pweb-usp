@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0de7e9d4-d9f7-4fd5-a3ff-1d44a2d84575" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pweb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/dove.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/favorite-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/favorite-1_th.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/favorite-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/favorite-2_th.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/favorite-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/favorite-3_th.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/favorite-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/favorite-4_th.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,17 +21,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3349">
+            <state relative-caret-position="190">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="38">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="109" column="23" lean-forward="true" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -107,6 +108,8 @@
         <option value="$PROJECT_DIR$/2/style.css" />
         <option value="$PROJECT_DIR$/2/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/3/styles.css" />
+        <option value="$PROJECT_DIR$/3/index.html" />
       </list>
     </option>
   </component>
@@ -121,28 +124,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="pweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pweb" type="462c0819:PsiDirectoryNode" />
+              <item name="pweb-usp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pweb-usp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pweb" type="462c0819:PsiDirectoryNode" />
-              <item name="1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pweb" type="462c0819:PsiDirectoryNode" />
-              <item name="2" type="462c0819:PsiDirectoryNode" />
+              <item name="pweb-usp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pweb-usp" type="462c0819:PsiDirectoryNode" />
+              <item name="3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,11 +191,12 @@
       <workItem from="1551919931825" duration="3767000" />
       <workItem from="1551968588220" duration="276000" />
       <workItem from="1551975330004" duration="178000" />
+      <workItem from="1553128897655" duration="415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8010000" />
+    <option name="totallyTimeSpent" value="8425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -235,7 +234,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3349">
+        <state relative-caret-position="190">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
@@ -259,8 +258,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="38">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="109" column="23" lean-forward="true" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
         </state>
       </provider>
     </entry>

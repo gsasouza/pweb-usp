@@ -1,0 +1,41 @@
+h1 {
+    font-size: 40px;
+    font-family: "Comic Sans MS", sans-serif;
+    text-align: center;
+}
+.players {
+    display: flex;
+    width: 100%;
+    justify-content: space-around
+}
+h2 {
+    text-align: center;
+}
+section {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    margin: 5px;
+    width: 200px;
+    border: 1px solid black;
+}
+button:hover{ background-color: gray; }
+.tesoura {
+    background-color: blueviolet;
+    color: white;
+}
+.papel {
+    background-color: white;
+}
+.pedra {
+    background-color: darkgreen;
+    color: white;
+}

@@ -183,8 +183,7 @@ while(balls.length < 25) {
 }
 
 // define loop that keeps drawing the scene constantly
-
-var evil = new EvilCircle(random(0,width), random(0,height), true);
+const evil = new EvilCircle(random(0,width), random(0,height), true);
 evil.setControls();
 
 function loop() {

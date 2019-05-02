@@ -1,4 +1,20 @@
-table, th, td {
-    border: 1px solid black;
-    text-align: left;
+table{
+    background: #fff;
+}
+table,thead,tbody,tfoot,tr, td,th{
+
+    border:1px solid #dedede;
+    text-align: center;
+}
+td, th {
+    padding: 10px 15px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+h1 {
+    text-align: center;
 }

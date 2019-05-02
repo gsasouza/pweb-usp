@@ -9,9 +9,11 @@ const formatDate = (dateValue) => {
 
 const createButton = (row) => {
   const excludeButton = document.createElement('button');
+  const td = document.createElement('td');
   excludeButton.appendChild(document.createTextNode('Excluir'));
   excludeButton.onclick = () => content.removeChild(row);
-  return excludeButton;
+  td.appendChild(excludeButton);
+  return td;
 };
 
 const createRow = (data) => {

@@ -6,16 +6,15 @@
         Cotação
     </title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 </head>
 
 <body>
-<h1>Construa sua query</h1>
+<h1>Consulte a Cotação</h1>
 <main>
     <form>
-        <label for="period">Período Inicial</label>
+        <label for="period">Período: </label>
         <input id="period" type="number" min="10" max="90" value="10"/>
-        <label for="type">Tipo de Cotação</label>
+        <label for="type">Tipo de Cotação: </label>
         <select id="type">
             <option value="cotacaoCompra" selected>Compra</option>
             <option value="cotacaoVenda">Venda</option>
@@ -27,8 +26,21 @@
         </select>
         <button type="submit">Executar</button>
     </form>
-    <ul>
-    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Data e Hora da Cotação
+                </th>
+                <th id="table-type">
+                    Cotação de Compra
+                </th>
+            </tr>
+        </thead>
+        <tbody id="content">
+
+        </tbody>
+    </table>
 </main>
 <script src="scripts.js"></script>
 </body>

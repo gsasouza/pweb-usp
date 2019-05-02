@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>
+        Cotação
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h1>Consulte a Cotação</h1>
+<main>
+    <form>
+        <label for="date">Dia: </label>
+        <input id="date" type="date" value="2018-01-02" max="2018-12-31" min="2018-01-02" />
+        <button type="submit">Executar</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Data e Hora da Cotação
+                </th>
+                <th>
+                    Cotação de Compra
+                </th>
+                <th>
+                    Cotação de Venda
+                </th>
+                <th>
+
+                </th>
+            </tr>
+        </thead>
+        <tbody id="content">
+
+        </tbody>
+    </table>
+</main>
+<script src="scripts.js"></script>
+</body>
+</html>
